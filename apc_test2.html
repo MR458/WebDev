@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(61, 68, 83);
+            color: #f7f5f5;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        nav {
+            position: fixed;
+            top: 0;
+            right: 0;
+        }
+        nav .title {
+            font-size: 1rem;
+            margin: 12px;
+            text-transform: uppercase;
+            text-align: center;
+        }
+        .title #college {
+            color: rgb(209, 169, 58);
+        }
+        .task{
+            margin-top: 40px;
+        }
+
+        .task h1.task_heading{
+            text-decoration: underline;
+            font-size: 2.5rem;
+        }
+
+        .task h1.task_heading #practise {
+            color: rgb(100, 227, 236);
+        }
+
+        .task p{
+            font-size: 1.1rem;
+            font-weight: bold;
+        }
+
+        .main_task{
+            height: 210px;
+            width: 250px;
+            padding: 6px;
+            background-color: #f7f5f5;
+            color: rgb(12, 10, 10);
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .main_task h1{
+            font-size: 1.9rem;
+        }
+       
+        .main_task ul{
+            font-size: 1.2rem;
+        }
+
+        .img-div {
+            background-color: #f7f5f51e;
+            height: 150px;
+            width: 150px;
+            position: fixed;
+            bottom: -15px;
+            right: -25px;
+            border-radius: 50%;
+        }
+            
+        footer{
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            margin-left: 5px;
+            padding: 0;
+            font-size: 1rem;
+            font-weight: 900;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <h2 class="title">Apna<br><span id="college">college</span></h2>
+        </nav>
+        <div class="task">
+            <h1 class="task_heading"><span id="practise">Practise</span> Qs 2</h1>
+            <p>Create an unorderd List of 3 fruits - apple, orange & mango that also shows links to their pictures.</p>
+        </div>
+        <div class="main_task">
+            <h1>List of Fruits</h1>
+            <ul>
+                <li>Apple <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfarAFccmDz22ZlfrL_vWW9Rxja-7INLgIRA&usqp=CAU">see an apple</a></li>
+                <li>Orange <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Orange-Fruit-Pieces.jpg/2560px-Orange-Fruit-Pieces.jpg">see an orplange</a></li>
+                <li>Mango <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Carabao_mangoes_%28Philippines%29.jpg/1200px-Carabao_mangoes_%28Philippines%29.jpg">see an mango</a></li>
+            </ul>
+        </div>
+        <div class="img-div"></div>
+       
+    </div>
+    <footer>
+        <p>HTML</p>
+    </footer>
+</body>
+</html>

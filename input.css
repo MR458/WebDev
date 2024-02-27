@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input {
+    margin: 15px;
+    padding: 1rem;
+    outline: none;
+    border: 1px solid #ad6a8f;
+
+}
+
+input:hover, input:active {
+    border:  1px solid #ac5384;
+    outline: none;
+    box-shadow: 0 0 5px 2px #ad6a8f;
+}

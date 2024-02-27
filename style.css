@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #203636;
+    color: #fcfafa;
+}
+
+header nav {
+    height: 60px;
+    width: 100%;
+    background-color: rgba(10, 10, 41, 0.048);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 30px;
+}
+
+header nav li {
+    list-style-type: none;
+    font-size: 1.2rem;
+    padding: 0.7em;
+    cursor: pointer;
+}
+
+header nav li:hover {
+    background-color: #fcfafa;
+    color: #203636;
+    border-radius: 5px 30px 0px 0px;
+
+}
+
+main section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main section h1 {
+    font-size: 2.5rem;
+    margin: 20px;
+}
+
+main article {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px auto;
+    max-width: 760px;
+   
+}
+
+.card {
+    height: 250px;
+    width: 33%;
+    max-width: 250px;
+    background-color: hsla(0, 0%, 0%, 0.158);
+    padding: 30px;
+    text-align: center;
+}
+
+.card h2 {
+    font-size: 1.8rem;
+    margin: 30px auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.card button {
+    padding: 08px 12px;
+    margin: 25px 0;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.322);
+    border-radius: 15px;
+    outline: none;
+}
+
+footer {
+    height: auto;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(10, 10, 41, 0.048);
+    position: absolute;
+    bottom: 0px;
+    left: auto;
+    right: auto;
+    text-align: center;
+}
+
+footer h4 {
+    font-size: 1.2rem;
+}
+
+@media screen {
+    
+}
